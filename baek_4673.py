@@ -11,10 +11,10 @@ candidate = list(range(1, 10001))
 for n in range(1, 10001):
     if d(n) in candidate:
         candidate.remove(d(n))
-        
+
 for i in range(len(candidate)):
     print(candidate[i])
-    
+
 
 # def self_num(n):
 #     x = list(map(int, str(n)))
